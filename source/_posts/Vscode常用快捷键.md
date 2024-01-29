@@ -10,12 +10,13 @@ tags: Vscode
 
 ## 面板操作
 
-- 打开资源管理器: Ctrl+Shift+E
-- 收起左侧边栏: Ctrl+B
+- 收起/打开左侧边栏: Ctrl+B
 - 切换标签页: Ctrl+Tab
 - 选择标签页: Alt+<NUMBER> (NUMBER为当前为第几个标签页)
 
 ## 编辑操作
 
 - 代码注释: Ctrl+/
+- 生成文档(基于Copilot): Ctrl+Shift+D
+- 智能修复(fix)报错(基于Copilot): Ctrl+Shift+F
 
