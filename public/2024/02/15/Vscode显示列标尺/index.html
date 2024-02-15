@@ -21,23 +21,23 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","width":240,"display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="问题说明 在嵌入式开发中需要经常用到库函数(SPL), Vscode需要配置引用路径才能对函数名或变量进行跳转 解决思路1 与Keil5 MDK类似, 在配置C&#x2F;C++的json文件中添加所使用的头文件路径 在Vscode中进行配置 在vscode中按Ctrl+Shift+P 输入configuration, 如图选择C&#x2F;C++编程配置(json)  在&quot;includePath&amp;quot">
+  <meta name="description" content="需求说明 为了确保列数在80个字符以内，我们需要在编辑器中显示列标尺。 操作方法 在Vscode设置中输入editor.rulers, 然后点击&quot;在settings.json中编辑&quot;，找到&quot;editor.rulers&quot;， 输入80即可。   123&quot;editor.rulers&quot;: [        80    ]">
 <meta property="og:type" content="article">
-<meta property="og:title" content="增加Vscode引用路径">
-<meta property="og:url" content="http://example.com/2024/01/27/%E5%A2%9E%E5%8A%A0Vscode%E5%BC%95%E7%94%A8%E8%B7%AF%E5%BE%84/index.html">
+<meta property="og:title" content="Vscode显示列标尺">
+<meta property="og:url" content="http://example.com/2024/02/15/Vscode%E6%98%BE%E7%A4%BA%E5%88%97%E6%A0%87%E5%B0%BA/index.html">
 <meta property="og:site_name" content="过隙影">
-<meta property="og:description" content="问题说明 在嵌入式开发中需要经常用到库函数(SPL), Vscode需要配置引用路径才能对函数名或变量进行跳转 解决思路1 与Keil5 MDK类似, 在配置C&#x2F;C++的json文件中添加所使用的头文件路径 在Vscode中进行配置 在vscode中按Ctrl+Shift+P 输入configuration, 如图选择C&#x2F;C++编程配置(json)  在&quot;includePath&amp;quot">
+<meta property="og:description" content="需求说明 为了确保列数在80个字符以内，我们需要在编辑器中显示列标尺。 操作方法 在Vscode设置中输入editor.rulers, 然后点击&quot;在settings.json中编辑&quot;，找到&quot;editor.rulers&quot;， 输入80即可。   123&quot;editor.rulers&quot;: [        80    ]">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202401272209160.png">
-<meta property="og:image" content="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202401272342499.png">
-<meta property="article:published_time" content="2024-01-27T14:02:55.000Z">
-<meta property="article:modified_time" content="2024-01-27T16:10:50.086Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202402152243203.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202402152245556.png">
+<meta property="article:published_time" content="2024-02-15T14:41:04.000Z">
+<meta property="article:modified_time" content="2024-02-15T14:46:19.996Z">
 <meta property="article:author" content="Eric Ellis">
 <meta property="article:tag" content="Vscode">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202401272209160.png">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202402152243203.png">
 
-<link rel="canonical" href="http://example.com/2024/01/27/%E5%A2%9E%E5%8A%A0Vscode%E5%BC%95%E7%94%A8%E8%B7%AF%E5%BE%84/">
+<link rel="canonical" href="http://example.com/2024/02/15/Vscode%E6%98%BE%E7%A4%BA%E5%88%97%E6%A0%87%E5%B0%BA/">
 
 
 <script id="page-configurations">
@@ -50,7 +50,7 @@
   };
 </script>
 
-  <title>增加Vscode引用路径 | 过隙影</title>
+  <title>Vscode显示列标尺 | 过隙影</title>
   
 
 
@@ -161,7 +161,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/27/%E5%A2%9E%E5%8A%A0Vscode%E5%BC%95%E7%94%A8%E8%B7%AF%E5%BE%84/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/02/15/Vscode%E6%98%BE%E7%A4%BA%E5%88%97%E6%A0%87%E5%B0%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -174,7 +174,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          增加Vscode引用路径
+          Vscode显示列标尺
         </h1>
 
         <div class="post-meta">
@@ -183,16 +183,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2024-01-27 22:02:55" itemprop="dateCreated datePublished" datetime="2024-01-27T22:02:55+08:00">2024-01-27</time>
+              <time title="创建时间：2024-02-15 22:41:04 / 修改时间：22:46:19" itemprop="dateCreated datePublished" datetime="2024-02-15T22:41:04+08:00">2024-02-15</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-01-28 00:10:50" itemprop="dateModified" datetime="2024-01-28T00:10:50+08:00">2024-01-28</time>
-              </span>
 
           
 
@@ -205,23 +199,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="问题说明">问题说明</h2>
-<p>在嵌入式开发中需要经常用到库函数(SPL), Vscode需要配置引用路径才能对函数名或变量进行跳转</p>
-<h2 id="解决思路1">解决思路1</h2>
-<p>与Keil5 MDK类似, 在配置C/C++的json文件中添加所使用的头文件路径</p>
-<h3 id="在vscode中进行配置">在Vscode中进行配置</h3>
-<p>在vscode中按Ctrl+Shift+P 输入configuration, 如图选择C/C++编程配置(json)</p>
-<p><img data-src="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202401272209160.png" alt="Vscode配置"></p>
-<p>在&quot;includePath&quot;后面增加所要使用的头文件的路径, 如下图所示</p>
-<p><img data-src="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202401272342499.png" alt="Vscode配置"></p>
-<h3 id="缺点">缺点</h3>
-<p>配置起来较为繁琐, 且部分函数依然无法跳转</p>
-<h2 id="解决思路2">解决思路2</h2>
-<p>在思路1的基础上, 向编写的文件中包含&quot;stm32f10x_conf.h文件&quot;</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_conf.h&quot;</span></span></span><br></pre></td></tr></table></figure>
-<p>在stm32f10x_conf文件中有对于所有外设头文件的包含</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* Includes ------------------------------------------------------------------*/</span></span><br><span class="line"><span class="comment">/* Uncomment/Comment the line below to enable/disable peripheral header file inclusion */</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_adc.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_bkp.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_can.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_cec.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_crc.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_dac.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_dbgmcu.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_dma.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_exti.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_flash.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_fsmc.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_gpio.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_i2c.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_iwdg.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_pwr.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_rcc.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_rtc.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_sdio.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_spi.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_tim.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_usart.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stm32f10x_wwdg.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;misc.h&quot;</span> <span class="comment">/* High level functions for NVIC and SysTick (add-on to CMSIS functions) */</span></span></span><br></pre></td></tr></table></figure>
-<p>所以在思路1的基础上加上思路2可以较好的解决该问题</p>
+        <h2 id="需求说明">需求说明</h2>
+<p>为了确保列数在80个字符以内，我们需要在编辑器中显示列标尺。</p>
+<h2 id="操作方法">操作方法</h2>
+<p>在Vscode设置中输入editor.rulers, 然后点击&quot;在settings.json中编辑&quot;，找到&quot;editor.rulers&quot;，<br>
+输入80即可。</p>
+<p><img data-src="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202402152243203.png" alt="Vscode设置"></p>
+<p><img data-src="https://raw.githubusercontent.com/See-YouL/MarkdownPhotos/main/202402152245556.png" alt="Vscode设置"></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;editor.rulers&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="number">80</span></span><br><span class="line">    <span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -240,13 +225,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2024/01/27/Vscode%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" rel="prev" title="Vscode常用快捷键">
-      <i class="fa fa-chevron-left"></i> Vscode常用快捷键
+    <a href="/2024/01/28/%E9%85%8D%E7%BD%AEVscode%E4%B8%8ESTM32%E4%B8%B2%E5%8F%A3%E8%BF%9E%E6%8E%A5/" rel="prev" title="配置Vscode与STM32串口连接">
+      <i class="fa fa-chevron-left"></i> 配置Vscode与STM32串口连接
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2024/01/28/%E9%85%8D%E7%BD%AEVscode%E4%B8%8ESTM32%E4%B8%B2%E5%8F%A3%E8%BF%9E%E6%8E%A5/" rel="next" title="配置Vscode与STM32串口连接">
-      配置Vscode与STM32串口连接 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -305,7 +287,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E"><span class="nav-number">1.</span> <span class="nav-text">问题说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF1"><span class="nav-number">2.</span> <span class="nav-text">解决思路1</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%A8vscode%E4%B8%AD%E8%BF%9B%E8%A1%8C%E9%85%8D%E7%BD%AE"><span class="nav-number">2.1.</span> <span class="nav-text">在Vscode中进行配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BC%BA%E7%82%B9"><span class="nav-number">2.2.</span> <span class="nav-text">缺点</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%80%9D%E8%B7%AF2"><span class="nav-number">3.</span> <span class="nav-text">解决思路2</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%9C%80%E6%B1%82%E8%AF%B4%E6%98%8E"><span class="nav-number">1.</span> <span class="nav-text">需求说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">操作方法</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
